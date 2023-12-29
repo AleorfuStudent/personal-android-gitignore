@@ -39,5 +39,20 @@ proguard-rules.pro
 # Logs
 *.log
 
+# Archivos de Gradle
+.gradle.kts/
+build/
+
+# Archivos de compilación de Gradle
+/captures/
+
+# Archivos de configuración de Gradle
+local.properties
+
+# Directorio de salida de Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+
 # Archivos de usuario
 *.orig
